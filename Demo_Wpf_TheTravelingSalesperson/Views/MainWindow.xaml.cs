@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Demo_Wpf_TheTravelingSalesperson
+namespace Demo_Wpf_TheTravelingSalesperson.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,11 @@ namespace Demo_Wpf_TheTravelingSalesperson
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Quit_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
